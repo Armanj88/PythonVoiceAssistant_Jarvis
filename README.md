@@ -2,7 +2,7 @@
 This is my last project I worked on it. It's the iron man jarvis. It can help on some calculations or save time. Or help you to do some works with your voice
 
 # Usage
-- First of all download all of the files I put on the top of this page. You can click on Code > Download zip or you can use this command and paste it in command prompt:
+- First of all download all of the files I put on the top of this page. You can click on Code > Download zip or you can use this command and paste it in command prompt:\n
 ``` git clone https://github.com/Armanj88/PythonVoiceAssistant_Jarvis ```
 - Then run ```config.py``` file and put your name and username in that.
 - Finally always when you want to run jarvis, only run jarvis.py
