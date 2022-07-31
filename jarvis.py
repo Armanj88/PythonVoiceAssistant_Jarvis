@@ -1565,18 +1565,6 @@ class MainThread(QThread):
                         pyautogui.press("volumedown")
                 elif "volume" in self.query and "mute" in self.query:
                     pyautogui.press("volumemute")
-                elif 'turn' in self.query and 'off' in self.query:
-                    speak("Ok sir, I am turning off")
-                    while True:
-                        try:
-                            on_cmd = self.take_command(True).lower()
-                            if ("turn" in on_cmd and 'on' in on_cmd) or 'jarvis' in on_cmd:
-                                speak("Hello again sir.")
-                                break
-                            else:
-                                continue
-                        except:
-                            continue
                 elif "switch the window" in self.query:
                     pyautogui.keyDown('alt')
                     pyautogui.press('tab')
